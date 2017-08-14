@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.red {
+  display: flex;
+  background-color: red;
+  align-items: stretch;
+  width: 100px;
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+}
