@@ -11,5 +11,9 @@
 **/
 
 const binarySearch = (nums, target) => {
-
+  //start in the middle Math.floor(nums.length/2)
+  //check to see if the value is at this index, yes return if no
+  //is this value larger or smaller than our target value
+  //if its smaller repeat from the beginning with new middle/max
+  //if its larger repeat with new middle/max
 };

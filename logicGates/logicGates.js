@@ -11,23 +11,33 @@
 
 const NAND = (x, y) => {
 	// You can use whatever JS operators that you would like: &&, ||, !
+  if x is true and y is true return false
+  return true
 };
 
 const NOT = (n) => {
 	// Do not use !, &&, or ||
+  if n is true return false
+  if n is false return true
 };
 
 const AND = (x, y) => {
 	// Do not use &&, ||, or !
 	// You can use any of the functions that you have already written
+  if x is true and y is true return true;
+  return false
 };
 
 const OR = (x, y) => {
 	// Do not use ||, &&, or !
 	// You can use any of the functions that you have already written
+  if x is true or y is true return true
+  return false
 };
 
 const XOR = (x, y) => {
 	// Do not use ||, &&, or !
 	// You can use any of the functions that you have already written
+  if x is true and y is false or if x is false and y is true
+  return true, else return false;
 };

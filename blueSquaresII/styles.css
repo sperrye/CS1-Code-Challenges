@@ -1,0 +1,16 @@
+body {
+  background-color: yellow;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.blue {
+  background-color: blue;
+}
